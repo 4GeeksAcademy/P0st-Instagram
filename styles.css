@@ -1,0 +1,75 @@
+* {
+    font-family: "Roboto Serif", serif;
+}
+/*div {
+    border-color: red;
+  border-width: 1px;
+  border-style: solid;
+}*/
+
+body {
+    margin-top: 3%;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 3%;
+    background-color: black;
+}
+
+i{
+    font-size: 30px;
+}
+
+div.post {
+    background-color: white;
+    padding-bottom: 2%;
+}
+
+i.icono {
+    font-size: 50px;
+    margin: 5%;
+}
+
+    div.post-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        div.titulo {
+            display: flex;
+            margin: 2%;
+        }
+
+            div.logo {
+                padding: 3%;
+                margin: 5%;
+            }
+
+            div.nombre {
+                line-height: 5px;
+            }
+        
+        div.puntos {
+            margin: 2%;
+            font-size: 50px;
+        }
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+}
+
+    div.post-body {
+        margin: 2%;
+        justify-content: space-between;
+    }
+    
+        div.post-icons {
+            display: flex;
+            margin-top: 3%;
+            justify-content: space-between;
+    }
+    
+            div.iconos {
+
+            }
